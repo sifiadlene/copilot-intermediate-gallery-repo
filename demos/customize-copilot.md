@@ -43,14 +43,16 @@ For this demo, try the same coding task with different models and note the diffe
 
 ### Instructions:
 
-1. update your mode to **edit**
-2. select the model you want to try out
-3. add in the following files:
+1. Update your mode to **edit**
+2. Select the model you want to try out
+3. Add the following files to the GitHub Copilot Chat UI as related files. You can do so but selecting `Add Context` and typing in the name of each file. OR close out all tabs, then open these three files. Select `Add Context`, then `Open Editors` to grab all open files in your IDE. Either way will gather the below files.
+```
   - /src/app/gallery/page.tsx
   - /src/lib/mock-photo-data.ts
   - /src/components/GalleryGrid.tsx
+```
 4. Stay on the last page: GalleryGrid and highlight lines 26 - 43
-5. add in below prompt:
+5. Add in below prompt:
 
 Prompt
 ```typescript
@@ -65,7 +67,7 @@ Which answers did you like the best? which the least? Discuss in your group.
 
 ## 📝 Step 3: Use Prompt Files
 
-1. Go to the prompts folder and look through the files. 
+1. Go to the `/.github/prompts` folder and look through the files. 
   - There are two files to choose from each in varying difficult levels. 
   - Look over the format of each before choosing which one.
 2. Choose the file you want to test out

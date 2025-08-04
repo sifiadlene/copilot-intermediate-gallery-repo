@@ -49,6 +49,7 @@ export default function RootLayout({
           </div>
         </header>
         {children}
+        {/* REPLACE THIS COMMENT */}
       </body>
     </html>
   );
