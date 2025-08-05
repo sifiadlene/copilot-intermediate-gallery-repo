@@ -43,7 +43,7 @@ If you want to contribute and create a new demo, follow these steps:
 
 ## Project Structure
 
-```
+```bash
 src/
 ├── app/                 # Next.js 15 App Router pages
 ├── components/          # Reusable React components

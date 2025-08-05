@@ -23,7 +23,7 @@ In IDE:
 1. **Open VS Code** and ensure GitHub Copilot is active
 2. **Locate Copilot status:** Look for the GitHub Copilot logo in the bottom-right status bar
 
-### Option B: Access the Premium Dashboard 
+### Option B: Access the Premium Dashboard
 
 In github.com:
 
@@ -41,16 +41,14 @@ Mode: edit
 
 For this demo, try the same coding task with different models and note the differences.
 
-### Instructions:
+### Instructions
 
 1. Update your mode to **edit**
 2. Select the model you want to try out
 3. Add the following files to the GitHub Copilot Chat UI as related files. You can do so but selecting `Add Context` and typing in the name of each file. OR close out all tabs, then open these three files. Select `Add Context`, then `Open Editors` to grab all open files in your IDE. Either way will gather the below files.
-```
-  - /src/app/gallery/page.tsx
-  - /src/lib/mock-photo-data.ts
-  - /src/components/GalleryGrid.tsx
-```
+    - /src/app/gallery/page.tsx
+    - /src/lib/mock-photo-data.ts
+    - /src/components/GalleryGrid.tsx
 4. Stay on the last page: GalleryGrid and highlight lines 26 - 43
 5. Add in below prompt:
 
@@ -61,27 +59,27 @@ Prompt
 
 Repeat steps 2-5 for two other models of your choosing.
 
-Which answers did you like the best? which the least? Discuss in your group. 
+Which answers did you like the best? which the least? Discuss in your group.
 
 ---
 
 ## 📝 Step 3: Use Prompt Files
 
-1. Go to the `/.github/prompts` folder and look through the files. 
-  - There are two files to choose from each in varying difficult levels. 
+1. Go to the `/.github/prompts` folder and look through the files.
+  - There are two files to choose from each in varying difficult levels.
   - Look over the format of each before choosing which one.
-2. Choose the file you want to test out
+2. Choose the file you want to test out.
 3. Add in the prompt below depending on the prompt file.
 
 **Generate mock data**
 Prompt
-```
+```markdown
 /generate-mock-photo-data 3
 ```
 
 **Refactor UI component**
 Prompt
-```
+```markdown
 /generate-new-ui for the recent galleries table in the admin page. I want it to be the replacement component for the current table and be reuseable.  Place it in the layout folder.
 ```
 
@@ -98,14 +96,14 @@ Ask copilot to generate a new prompt file for unit tests. Use the following step
 7. Create your own custom prompt file with GitHub Copilot:
 
 ```markdown
-<!-- Add in related files to Ask mode-->
+<!-- Add in related files to Ask mode -->
 Related files:
 - /src/components/ui/FeatureCard.tsx
 - /.github/prompts/generate-new-ui.prompt.md
 - /.github/prompts/generate-mock-photo-data.prompt.md
 
 <!-- Copy/paste prompt below -->
-help me create a prompt files for creating unit test generation for the UI components. 
+help me create a prompt files for creating unit test generation for the UI components.
 ```
 
 ## 🎭 Step 4: Utilize Chat Modes

@@ -33,7 +33,7 @@ Mode: Ask
 
 **Action:** Type the following command in the Copilot chat:
 Prompt
-```
+```markdown
 /help
 ```
 
@@ -45,17 +45,17 @@ Prompt
 
 ### 2.1 Get Project Overview
 **Prompt:**
-```
+```markdown
 @workspace Give me a summary of the project and give an overview of the most impactful files. 
 ```
 
-**Follow-up Action:** 
-- Select the first page in the "Most Impactful Files" 
+**Follow-up Action:**
+- Select the first page in the "Most Impactful Files"
 - Highlight the first section
 
 ### 2.2 Explain Selected Code
 **Prompt:**
-```
+```markdown
 @workspace /explain 
 ```
 
@@ -63,7 +63,7 @@ Prompt
 
 ### 2.3 Get Improvement Suggestions
 **Prompt:**
-```
+```markdown
 Tell me about the improvements that can be made in this repo.
 ```
 
@@ -71,7 +71,7 @@ Tell me about the improvements that can be made in this repo.
 
 ## 💻 Step 3: Generate Code with Copilot code completions
 
-### Instructions:
+### Code Completions Instructions
 1. **Navigate to file:** Open [`src/app/layout.tsx`](src/app/layout.tsx)
 2. **Find location:** Go to line 52 `{/* REPLACE THIS COMMENT */}`
 3. **Remove line 52 comment:** and replace it with the following comment:
@@ -122,6 +122,6 @@ Mark off each item as you complete it:
 
 ## 🚀 What's Next?
 
-Congratulations! You've completed your first GitHub Copilot demo. 
+Congratulations! You've completed your first GitHub Copilot demo.
 
-👉 **[Start Engineering Practices Demo ](./engineering-practices.md)**
+👉 **[Start Engineering Practices Demo](./engineering-practices.md)**

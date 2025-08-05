@@ -4,7 +4,7 @@ Welcome to the GitHub Copilot Coding Agent demo! This demo will guide you throug
 
 ## What You'll Learn
 By the end of this demo, you will:
-- [ ] 
+- [ ]
 
 **Estimated Time:** 20-30 minutes
 
@@ -18,7 +18,7 @@ By the end of this demo, you will:
 
 Mark off each item as you complete it:
 
-- [ ] 
+- [ ]
 
 ## 🚀 What's Next?
 
@@ -26,4 +26,4 @@ Congratulations! You've now completed all Coding Agent demos! You’ve practiced
 
 Keep exploring Copilot’s capabilities, share your learnings with your team, and continue building great things. For more advanced tips, check out the official documentation or try creating your own custom demos.
 
-Happy coding!! 
+Happy coding!!
