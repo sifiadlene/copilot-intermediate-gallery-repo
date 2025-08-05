@@ -67,9 +67,9 @@ Which answers did you like the best? which the least? Discuss in your group.
 
 ## 📝 Step 3: Use Prompt Files
 
-1. Go to the `/.github/prompts` folder and look through the files.
-  - There are two files to choose from each in varying difficult levels.
-  - Look over the format of each before choosing which one.
+1. Go to the `/.github/prompts` folder and look through the files. 
+- There are two files to choose from each in varying difficult levels.
+- Look over the format of each before choosing which one.
 2. Choose the file you want to test out.
 3. Add in the prompt below depending on the prompt file.
 
@@ -137,17 +137,17 @@ Model Context Protocol (MCP) servers allow you to extend GitHub Copilot capabili
 Custom instructions let you shape GitHub Copilot’s behavior to match your team’s coding style, best practices, and project conventions. With custom instructions, Copilot can automatically follow your preferred patterns, use your naming conventions, and even adapt to your workflow. Let's see what this repos custom instructions are:
 
 1. Go to `.github/custom-instructions.md`
-2. Look over the file. Have you noticed coding suggestions have been based around this file? 
+2. Look over the file. Have you noticed coding suggestions have been based around this file?
 
 Now let's generate one with the help of GitHub Copilot.
 
 1. Go to Copilot Chat
-2. Select the gear icon on the top right 
+2. Select the gear icon on the top right
 3. Click "Generate Instructions"
 
 Look over this file and notice how its a good starting point for this project. You can remove or add any instructions your team has in mind!
 
-Custom instructions works in tandem with MCP to help you guide the agent. 
+Custom instructions works in tandem with MCP to help you guide the agent.
 
 ### Part Two: MCP Authentication
 

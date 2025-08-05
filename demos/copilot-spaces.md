@@ -16,7 +16,7 @@ By the end of this demo, you will:
 
 **Goal:** Set up a dedicated Copilot Space for working on gallery features.
 
-### Demo Instructions
+### Spaces Instructions
 
 Choose ONE of the following options to create your Copilot Space. Do not create both options, as you will be using the other option in the next step.
 
