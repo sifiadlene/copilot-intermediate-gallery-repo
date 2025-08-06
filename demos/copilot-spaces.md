@@ -16,15 +16,83 @@ By the end of this demo, you will:
 
 **Goal:** Set up a dedicated Copilot Space for working on gallery features.
 
-### Spaces Instructions
+### Setup
+1. Go to https://github.com/copilot/spaces
+2. Select `Create Space`
 
-Choose ONE of the following options to create your Copilot Space. Do not create both options, as you will be using the other option in the next step.
+### Group A Option
 
-**Option A:**
+1. Type in name `Name`
+2. Select the owner `Username` OR `OrgName`
+3. Add in description `description`
+4. Select `Save`
 
+**Adding instructions**
 
-**Option B:**
+5. Select `Instructions` and add the following prompt:
+```markdown
 
+```
+6. Select save
+
+**Adding sources**
+
+7. Select `Add sources` and select `Add files and repositories`
+8. Add the following files and press `save`
+```markdown
+
+```
+9. Select `Add sources` and select `Link files, pull requests, and issues`
+10. Add issue link `link` and press `save`
+11. Select `Add sources` and select `Add text content`
+12. Add the following content and press `save`
+```markdown
+
+```
+
+**Share your Space**
+
+13. Select `Share` on the top right side
+14. Update `No Access` to `Viewer`
+15. Copy the link and send to the Option B Group.
+
+### Group B Option
+
+1. Type in name `Name`
+2. Select the owner `Username` OR `OrgName`
+3. Add in description `description`
+4. Select `Save`
+
+**Adding instructions**
+
+5. Select `Instructions` and add the following prompt:
+```markdown
+
+```
+6. Select save
+
+**Adding sources**
+
+7. Select `Add sources` and select `Add files and repositories`
+8. Add the following files and press `save`
+```markdown
+
+```
+9. Select `Add sources` and select `Link files, pull requests, and issues`
+10. Add issue link `link` and press `save`
+11. Select `Add sources` and select `Add text content`
+12. Add the following content and press `save`
+```markdown
+
+```
+
+### Share your Space[OPTIONAL]
+
+**This option is ONLY if you made the Owner an organization**
+
+13. Select `Share` on the top right side
+14. Update `No Access` to `Viewer`
+15. Copy the link and send to the Option B Group.
 
 **Expected Result:** A new Copilot Space will be created and opened, providing you with a dedicated environment for this development session.
 
@@ -32,15 +100,35 @@ Choose ONE of the following options to create your Copilot Space. Do not create 
 
 **Goal:** Use an existing Copilot Space to complete the task listed below.
 
-## Instructions
+**Challenge:** If your group created the Space in an organization, switch Copilot Spaces to try out the other groups! I.e, if you choose **Option B** in the previous exercise, this time you will be following **Option A** exercise and vice versa. 
 
-Choose the other Copilot Space your team member created to complete the goal. I.e, if you choose **Option B** in the previous exercise, this time you will be following **Option A** exercise.
+### Group A Option
 
-**Option A:**
+1. Go to the Copilot Space
+2. Type in the following prompt to find out how to BLANK
 
+```markdown
+```
 
-**Option B:**
+3. Ask another question! What else do you want to learn?
 
+### Group B Option
+
+1. Go to the Copilot Space
+2. Type in the following prompt to find out how to BLANK
+
+```markdown
+```
+
+3. Ask another question! What else do you want to learn?
+
+### Final discussion
+
+- How were you able to collaborate with your team using Copilot Spaces? 
+- How did Copilot’s suggestions help (or hinder) your collaboration?
+- What would you do differently next time to improve teamwork and productivity?
+
+Share your thoughts and any tips you discovered for making the most of Copilot Spaces in a team setting.
 
 **Expected Result:** You will have successfully collaborated with AI to implement a new feature in the Photo Gallery & Portfolio application.
 
