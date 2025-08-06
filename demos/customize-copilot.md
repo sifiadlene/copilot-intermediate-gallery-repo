@@ -121,6 +121,9 @@ help me plan out a new page for creating new galleries
 **DISCUSSION**
 Look through response. What other modes would be helpful for this repo?
 
+**If time permits**
+Try implementing the changes from the plan using a different mode to explore how the experience varies.
+
 ## 🛠️ Step 5: Custom instructions and MCP Servers
 
 ### Understanding MCP Servers
