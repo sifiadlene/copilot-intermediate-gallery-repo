@@ -11,7 +11,7 @@ By the end of this demo, you will:
 
 **Estimated Time:** 10-15 minutes
 
-## 🔧 IDE Features for Engineering Teams
+## 🔧 IDE Features
 
 GitHub Copilot has many features designed to help engineering teams understand AI decision-making and collaborate effectively on code generation.
 
