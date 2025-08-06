@@ -82,14 +82,17 @@ GitHub.com provides additional tools for managing Copilot at the organizational 
 
 **Why this matters:** System prompts define how Copilot behaves across your organization. Understanding these helps ensure consistent, high-quality code generation that follows your team's standards.
 
-#### System Prompts Instructions
+#### System Prompts and Personal Instructions
 1. **Navigate to GitHub Copilot:** Go to [https://github.com/copilot](https://github.com/copilot)
 2. **Access settings:** Click the **[...]** menu button in the top-right corner
 3. **Open system prompts:** Select **"System prompt"**
+4. **Exit out:** of the system prompt
+5. **Open settings again:** Click the **[...]** menu button in the top-right corner
+6. **Open personal instructions:** Select **"Personal instructions"**
 
 #### What to Explore
 - **Available Prompts:** Browse the library of pre-built system prompts
-- **Personal instructions:** See if your organization has created custom instructions
+- **Personal instructions:** Are there any preferences you'd like in the instructions? Test it out!
 
 **🔍 Things to Look For:**
 - How do system prompts influence code style?
