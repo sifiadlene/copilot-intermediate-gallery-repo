@@ -67,7 +67,7 @@ Which answers did you like the best? which the least? Discuss in your group.
 
 ## 📝 Step 3: Use Prompt Files
 
-1. Go to the `/.github/prompts` folder and look through the files. 
+1. Go to the `/.github/prompts` folder and look through the files.
 - There are two files to choose from each in varying difficult levels.
 - Look over the format of each before choosing which one.
 2. Choose the file you want to test out.
