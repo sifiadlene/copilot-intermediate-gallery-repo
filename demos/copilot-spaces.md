@@ -17,7 +17,7 @@ By the end of this demo, you will:
 **Goal:** Set up a dedicated Copilot Space for working on gallery features.
 
 ### Setup
-1. Go to https://github.com/copilot/spaces
+1. Go to `https://github.com/copilot/spaces`
 2. Select `Create Space`
 
 ### Group A Option: Security Analysis & Hardening
@@ -170,7 +170,7 @@ package.json
 
 **Goal:** Use an existing Copilot Space to complete the task listed below.
 
-**Challenge:** If your group created the Space in an organization, switch Copilot Spaces to try out the other groups! I.e, if you choose **Option B** in the previous exercise, this time you will be following **Option A** exercise and vice versa. 
+**Challenge:** If your group created the Space in an organization, switch Copilot Spaces to try out the other groups! I.e, if you choose **Option B** in the previous exercise, this time you will be following **Option A** exercise and vice versa.
 
 ### Group A Option
 
@@ -212,7 +212,7 @@ Following industry best practices, what documentation structure would you recomm
 
 ### Final discussion
 
-- How were you able to collaborate with your team using Copilot Spaces? 
+- How were you able to collaborate with your team using Copilot Spaces?
 - How did Copilot’s suggestions help (or hinder) your collaboration?
 - What would you do differently next time to improve teamwork and productivity?
 
