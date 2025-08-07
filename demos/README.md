@@ -50,11 +50,11 @@ Collaborate in dedicated Copilot Spaces. Create a Space, set goals, add context 
 
 ### 5. Coding Agent Demo ([coding-agent.md](coding-agent.md))
 **Overview:**  
-Practice building and refactoring real features with Copilot as your coding agent. Scaffold new UI components and refactor existing features using Copilot’s suggestions.  
+Experience GitHub Copilot as a coding agent to accelerate building and enhancing features in your Photo Gallery & Portfolio application.  
 **Key Skills:**  
-- Scaffold new components  
-- Refactor code with Copilot  
-- Collaborate and iterate on solutions
+- Assign Copilot to GitHub issues  
+- Review Copilot-generated pull requests and session details  
+- Practice collaborative code review and iteration  
 
 ---
 
@@ -63,6 +63,6 @@ Practice building and refactoring real features with Copilot as your coding agen
 1. Start with the first demo and work through each guide in order.
 2. Follow the instructions and prompts in each file.
 3. Mark off completion checklists as you progress.
-4. Share your learnings and results with your team.!
+4. Share your learnings and results with your team.
 
 ---

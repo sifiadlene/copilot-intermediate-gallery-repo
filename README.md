@@ -17,6 +17,10 @@ If you want to contribute and create a new demo, follow these steps:
 3. Copilot will generate a new demo file in the `demos/` directory.
 4. Fill in remaining sections with detailed instructions, examples, and expected results.
 
+After finishing the demo, don’t forget this quick follow-up:
+
+1. Add in the overview, key skills, and demo link to the [demo README](demos/README.md)
+
 ## Getting Started
 
 ### Technical Requirements
@@ -43,7 +47,7 @@ If you want to contribute and create a new demo, follow these steps:
 
 ## Project Structure
 
-```
+```bash
 src/
 ├── app/                 # Next.js 15 App Router pages
 ├── components/          # Reusable React components
