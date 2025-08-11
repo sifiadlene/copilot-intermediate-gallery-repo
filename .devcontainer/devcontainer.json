@@ -1,0 +1,29 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "forwardPorts": [3000],
+  "name": "Intermediate Copilot Dev Container",
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "typescript.tsdk": "node_modules/typescript/lib"
+      }
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  }
+}
