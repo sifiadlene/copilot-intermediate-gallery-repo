@@ -1,11 +1,17 @@
 {
+  "name": "Next.js Photo Gallery - Intermediate Copilot",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
   "hostRequirements": {
     "cpus": 4
   },
   "forwardPorts": [3000],
-  "name": "Intermediate Copilot Dev Container",
-  "postCreateCommand": "npm install",
+  "portsAttributes": {
+    "3000": {
+      "label": "Next.js App",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "npm install && npm run build",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -21,9 +27,5 @@
       }
     }
   },
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "20"
-    }
-  }
+  "remoteUser": "vscode"
 }
