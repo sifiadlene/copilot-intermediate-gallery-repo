@@ -17,7 +17,7 @@ If you want to contribute and create a new demo, follow these steps:
 3. Copilot will generate a new demo file in the `demos/` directory.
 4. Fill in remaining sections with detailed instructions, examples, and expected results.
 
-After finishing the demo, don’t forget this quick follow-up:
+After finishing the demo, don't forget this quick follow-up:
 
 1. Add in the overview, key skills, and demo link to the [demo README](demos/README.md)
 
@@ -28,7 +28,24 @@ After finishing the demo, don’t forget this quick follow-up:
 - **Node.js** v18 or newer
 - **npm** (or yarn, pnpm, bun)
 
-### Installation
+### Quick Start with GitHub Codespaces
+
+The fastest way to get started is using GitHub Codespaces:
+
+1. Click the **"Code"** button on the GitHub repository page
+2. Select the **"Codespaces"** tab
+3. Click **"Create codespace on main"** (or your current branch)
+4. Wait for the codespace to build and start
+
+The codespace will automatically:
+- Install all dependencies (`npm install`)
+- Start the development server (`npm run dev`)
+- Configure GitHub Copilot and essential VS Code extensions
+- Forward port 3000 for the Next.js application
+
+Once ready, you can access the application at the forwarded port URL provided in the terminal.
+
+### Local Installation
 
 1. Clone the repository:
    ```bash
