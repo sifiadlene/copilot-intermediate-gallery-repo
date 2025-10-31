@@ -1,10 +1,14 @@
 # Generate Mock Photo Data
 
-Please generate additional mock photo data entries for the photo gallery application. The data should follow the existing structure in `mock-photo-data.ts`.
+Please generate additional mock photo data entries for the photo gallery application. The data should follow the existing structure in ${src/lib/mock-photo-data.ts}.
 
 ## Instructions
 
-1. How many new photo entries would you like to add to the mock data? (Please specify a number)
+1. How many new photo entries would you like to add to the mock data? (Please specify a number : ${input:number_of_entries})
+
+2. Which date range should the photos fall within? 
+(please specify a start and end date : ${input:date_range})
+
 
 ## Data Structure Reference
 Each photo entry should include:
