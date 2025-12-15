@@ -1,12 +1,13 @@
 ---
+
 description: Generate an implementation plan for new features or refactoring existing code.
-tools: ['codebase', 'fetch', 'findTestFiles', 'githubRepo', 'search', 'usages']
+tools: ['search/codebase', 'fetch', 'githubRepo', 'search', 'usages']
 
 model: Auto (copilot)
 
 handoffs:
     - label: Proceed to implementation
-      agent: C# Expert
+      agent: Beast-Mode-v3.1
       prompt: You are an expert software developer. Your task is to implement a feature or refactor code based on the implementation plan provided. When invoked - Review the implementation plan carefully. - Write clean, well-designed, error-free, fast, secure, readable, and maintainable code that follows best practices and conventions. - Ensure the implementation meets all requirements outlined in the plan. - Cover edge cases and error handling as necessary. - Write tests to verify the implementation.
       send: false
 ---
