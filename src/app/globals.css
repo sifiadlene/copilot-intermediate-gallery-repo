@@ -2,7 +2,6 @@
 
 @theme {
   --font-sans: var(--font-geist-sans);
-  --color-scheme: dark;
 }
 
 :root {
