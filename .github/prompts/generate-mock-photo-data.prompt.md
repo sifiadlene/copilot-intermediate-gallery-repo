@@ -1,5 +1,11 @@
 # Generate Mock Photo Data
 
+agent: 'agent'
+
+description: 'Generate additional mock photo data entries for the photo gallery application'
+
+argument-hints: ['number_of_entries', 'date_range']
+
 Please generate additional mock photo data entries for the photo gallery application. The data should follow the existing structure in ${src/lib/mock-photo-data.ts}.
 
 ## Instructions
